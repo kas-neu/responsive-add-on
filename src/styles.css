@@ -78,7 +78,7 @@ header a {
 }
 main {
   background-color: white;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 main h2 {
   font-weight: 700;
@@ -171,13 +171,13 @@ section {
     font-size: 12px;
   }
   main h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   main h2 {
-    font-size: 12px;
+    font-size: 16px;
   }
   main p {
-    font-size: 11px;
+    font-size: 14px;
   }
   main .grid {
     grid-template-columns: 1fr;
