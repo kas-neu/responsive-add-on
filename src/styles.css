@@ -125,6 +125,7 @@ main p {
 }
 main img {
   max-width: 100%;
+  display: block;
 }
 footer {
   color: white;
@@ -176,11 +177,21 @@ section.secondary {
   background: white;
   margin: 30px 10px;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 0.8;
+}
 .card-body {
   padding: 30px;
 }
 .card-footer {
   padding: 0 30px 30px;
+}
+.card img {
+  aspect-ratio: 1 /0.8;
 }
 .btn {
   display: block;
@@ -201,7 +212,6 @@ section.secondary {
 .img-responsive {
   max-width: 100%;
   display: block;
-  margin-bottom: 10px;
 }
 .container {
   max-width: 1400px;
@@ -258,5 +268,11 @@ section.secondary {
   }
   section {
     padding: 30px;
+  }
+  .card-header iframe {
+    display: none;
+  }
+  .card img {
+    aspect-ratio: 16 / 9;
   }
 }
