@@ -209,6 +209,10 @@ section.secondary {
 .insta-embeds {
   margin: 30px 0;
 }
+.instagram-media {
+  min-width: 235px !important;
+  width: 60% !important;
+}
 .text-center {
   text-align: center;
 }
