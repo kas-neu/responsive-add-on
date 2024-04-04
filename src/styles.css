@@ -206,6 +206,9 @@ section.secondary {
   background-color: #462cb3;
   text-decoration: none;
 }
+.insta-embeds {
+  margin: 30px 0;
+}
 .text-center {
   text-align: center;
 }
